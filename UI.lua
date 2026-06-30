@@ -114,7 +114,7 @@ function ShellcoinTicker.UI:CreateMainFrame()
     -- Title label
     local titleText = frame:CreateFontString(nil, "OVERLAY", "GameFontNormal")
     titleText:SetPoint("TOP", frame, "TOP", 0, -8)
-    titleText:SetText("|cffffd700🐢 Shellcoin Ticker (SHELL)|r")
+    titleText:SetText("|cffffd700Shellcoin Ticker (SHELL)|r")
 
     -- Close button (uses standard Blizzard UI assets)
     local closeBtn = CreateFrame("Button", nil, frame)
