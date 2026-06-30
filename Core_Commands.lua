@@ -250,7 +250,7 @@ SlashCmdList["SHELLCOINTICKER"] = function(msg)
             DEFAULT_CHAT_FRAME:AddMessage("|cffff0000ShellcoinTicker: Usage: /sct mock [on/off/status/fill/speedrun]|r")
         end
     elseif cmd == "help" or cmd == "" then
-        DEFAULT_CHAT_FRAME:AddMessage("|cffffd700🐢 Shellcoin Ticker Commands:|r")
+        DEFAULT_CHAT_FRAME:AddMessage("|cffffd700Shellcoin Ticker Commands:|r")
         DEFAULT_CHAT_FRAME:AddMessage("  |cff00ff00/sct|r or |cff00ff00/sct help|r - Show command list")
         DEFAULT_CHAT_FRAME:AddMessage("  |cff00ff00/sct options|r - Open options window")
         DEFAULT_CHAT_FRAME:AddMessage("  |cff00ff00/sct show|r - Show the HUD frame")
